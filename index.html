@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OtakuWorld</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container-fluid p-2 text-center">
+        <nav class="navbar navbar-expand-lg bg-light"> 
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">OtakuWorld</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end bg-danger btn" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Teorias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Comunidades</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Naruto</a></li>
+                        <li><a class="dropdown-item" href="#">Dragon Ball</a></li>
+                        <li><a class="dropdown-item" href="#">One Piece</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Sugestões</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <h1>OtakuWorld O Mundo Dos Animes</h1>
+      <nav>
+        <ul>
+            <li><a href="#">Naruto</a></li>
+            <li><a href="#">One Piece</a></li>
+            <li><a href="#">Dragon Ball</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="container-fluid bg-light text-center p-2">
+        <h2>Ola,Seja bem vindo!</h2>
+        <p>colocar alguma coisa aqui que sera gerada pelo chat gpt
+        <br><br>
+        Segue o link abaixo para escutar uma musica muito massa
+        <br>
+        <a href="https://www.youtube.com/watch?v=yzTuBuRdAyA">Musiquinha massa boy</a>
+        <hr>
+    </p>
+    <div class="row">
+    <figure class="col text-center">
+        <img src="Imagens/imagem 1.jpeg" alt="Imagem_de_One Piece">
+        <figcaption>One Piece</figcaption>
+    </figure>
+    <figure class="col text-center">
+        <img src="Imagens/imagem 2.jpg" alt="Imagem_de_DragonBall">
+        <figcaption>Dragon Ball</figcaption>
+    </figure>
+    <figure class="col text-center">
+        <img src="Imagens/imagem 3.jpg" alt="Imagem_de_Naruto">
+        <figcaption>Naruto</figcaption>
+    </figure>
+    </div>
+    </section>
+    <section id="midiasVideos" class="container-fluid bg-light text-center p-2">
+        <div class="videos">
+            <video controls width="60%" height="60%">
+                <source src="Video/The Weeknd - The Hills.mp4" type="video/mp4">
+                <source src="Video/The Weeknd - The Hills.mp4" type="video/webm">
+                Seu navegador não suporta este tipo de video, caso queira 
+                acessar o video mesmo assim, clique aqui para baixar o video: <a href="Video/The Weeknd - The Hills.mp4">Baixe aqui</a>
+                </video>
+        </div>
+    </section>
+    <br><br>
+    <section class="container-fluid bg-info text-xl-center p-2">
+        <h2 class="text-center">Ano de criação dos Animes</h2>
+        <table class="table table-info table-striped table-hover table-bordered border-danger">
+            <caption>Ano de criação</caption>
+            <thead class="table-secondary">
+            <tr>
+                <th>
+                    Animes
+                </th>
+                <th>
+                    Ano de criação
+                </th>
+            </tr>
+            </thead>
+            <tbody class="table-group-divider">
+            <tr>
+                <td>
+                    One Piece
+                </td>
+                <td>
+                    1999
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Dragon Ball
+                </td>
+                <td>
+                    1985
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Naruto
+                </td>
+                <td>
+                    2002
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="container-fluid bg-body-secondary p-2">
+        <h2 class="text-center bg-dark-subtle">Contato</h2>
+        <form method="post" action="">
+            <fieldset>
+                <legend>Entre em contato atraves do Email</legend>
+                <div class="mb-3">
+                    <label class="form-label" for="nome">Nome:</label>
+                    <input type="text" class="form-control" required name="nome" id="nome">
+                </div>
+                
+                <div class="mb-3">
+                    <label class="form-label" for="email">Email:</label>
+                    <input type="email" class="form-control" name="email" placeholder="email@email.com" id="email" required>
+                </div>
+                
+                <div class="mb-3">
+                    <label class="form-label" for="comentario">Comentario:</label>
+                    <textarea rows="10" class="form-control" name="comentario" id="comentario" required></textarea>
+                    <button class="btn btn-dark">Enviar</button>
+                </div>
+               
+            </fieldset> 
+        </form>
+    </section>
+    <section class="container-fluid bg-info-subtle p-2">
+        <h2 class="text-center bg-info">Cadastro</h2>
+        <form method="post" action="">
+            <fieldset>
+                <label>Nome de Usuario:</label>
+                <br>
+                <input type="text" required name="usuario">
+                <br><br>
+                <label>Email:</label>
+                <br>
+                <input type="email" required name="email">
+                <br><br>
+                <label>Data de Nascimento:</label>
+                <br>
+                <input type="date" required name="dataNascimento">
+                <br><br>
+                <label>Senha:</label>
+                <br>
+                <input type="password" required name="senha">
+                <br><br>
+                <label>Sexo:</label>
+                <br>
+                <label>
+                    <input type="radio" name="sexo" value="Sexo Masculino"> Masculino
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="sexo" value="Sexo Feminino"> Feminino
+                </label>
+                <br><br>
+                <button>Cadastrar</button>
+            </fieldset>
+        </form>
+    </section>
+    <section class="container-fluid bg-body-tertiary p-2">
+        <h2 class="text-center bg-danger">Quais seus animes faviritos</h2>
+        <form method="get" action="">
+            <fieldset>
+               <legend>Escolha seus Animes</legend>
+               <br>
+               <div class="form-check">
+                <input type="checkbox" class="form-check-input" name="onePiece" value="onePiece" id="onePiece">
+                <label class="form-check-label" for="onePiece">
+                    One Piece
+                   </label>
+               </div>
+
+               <div class="form-check">
+                <input type="checkbox" class="form-check-input" name="naruto" value="naruto" id="naruto">
+                <label class="form-check-label" for="naruto">
+                    Naruto
+                   </label>
+               </div>
+               
+               <div class="form-check">
+                <input type="checkbox" class="form-check-input" name="dragonBall" value="dragonBall" id="dragonBall">
+                <label class="form-check-label" for="dragonBall+">
+                    Dragon Ball
+                   </label>
+               </div>
+            </fieldset>
+            <fieldset>
+                <legend>Agora selecione o seu favorito</legend>
+                <br>
+                <label>
+                    <select name="animeFavorito">
+                        <option value="escolha" selected>Escolha</option>
+                        <option value="onePiece">One Piece</option>
+                        <option value="naruto">Naruto</option>
+                        <option value="dragonBall">Dragon Ball</option>
+                    </select>
+                </label>
+            </fieldset>
+            <br>
+            <button class="btn btn-dark">Enviar</button>
+        </form>
+    </section>
+    <footer class="container-fluid bg-danger-subtle text-center">
+        <p>
+            Desenvolvido por Gabriel Rodrigo
+            <br>
+            Email para contato:gabrielrodrigo252004@gmail.com
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+
+</body>
+</html>

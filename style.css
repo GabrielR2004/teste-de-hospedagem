@@ -1,0 +1,70 @@
+body{
+    font-weight: 400;
+    font-family:comic sans MS, roboto, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: rgb(60, 61, 61);
+    margin: 0;
+}
+h1{
+    font-size: 65px;
+    color: rgb(22, 22, 22);
+    text-align: center;
+    padding: 20px;
+}
+h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(35, 36, 36);
+}
+header{
+    background-color: aqua;
+}
+section,footer{
+    margin: 40px;
+}
+nav li a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(162, 188, 196);
+}
+nav li{
+    float: left;
+}
+nav ul{
+    float: left;
+    list-style: none;
+}
+nav{
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: rgb(19, 12, 41);
+    height: 50px;
+    padding-right: 40px;
+}
+
+table{
+    width: 100%;
+}
+table td{
+    color: rgb(8, 8, 8);
+    padding: 20px;
+}
+table tr:nth-child(even){
+    background-color: rgb(216, 216, 216);
+}
+
+table tr:nth-child(odd){
+    background-color: rgb(124, 124, 124);
+}
+
+table thead th{
+    background-color: rgb(255, 35, 35);
+    color: azure;
+}
+
+img{
+    height: 360px;
+    width: 360px;
+}
